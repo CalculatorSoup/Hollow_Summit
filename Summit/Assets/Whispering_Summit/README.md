@@ -1,37 +1,44 @@
 # Hollow Summit
 
-An alternate Stage 5 environment made in the style of vanilla maps, set atop a snowcapped mountain that was hollowed out by an abandoned mining operation. In recent times, it's become wracked with lunar corruption.
+An alternate Stage 5 environment set atop a snowcapped mountain that was hollowed out by an abandoned mining operation and is now being slowly corrupted by the moon looming above it.
 
-The map is structured sort of like Helminth Hatchery, where it's very tall and kind of gets narrower/more cramped near the top, but the lowest and tallest sections of the map are both in the center rather than on opposite sides. The center of the map is a giant cavern with openings leading to slopes and cliffs that wrap around the mountain, leading to an upper layer near the peak. There are jump pads and "air tunnels" (like the ones in Repurposed Crater) scattered everywhere to help with getting around.
+The map has a unique layout that's probably closest to Helminth Hatchery, but if it was wider and shorter. The center of the map is a giant cavern with openings leading to slopes and cliffs that wrap around the mountain, leading to an upper layer near the peak. There are jump pads and air tunnels (like the ones in Repurposed Crater) scattered everywhere to help with getting around.
+
+![](https://github.com/CalculatorSoup/Hollow_Summit/blob/main/Summit/Assets/preview%20cliff.png?raw=true)
 
 # Variants
 
-This mod also includes two variants of Hollow Crest:
-- Frozen Summit, a snowy variant with different enemies that replaces Hollow Summit after looping (by default; can be changed via config options if you'd like)
+Hollow Summit also has two variants:
+- Frozen Summit, a snowy variant with different enemies that replaces Hollow Summit after looping (by default; can be changed via config options)
 - A Void replication of Hollow Summit with minimal edits, exclusive to SotV's Simulacrum gamemode
+
+![](https://github.com/CalculatorSoup/Hollow_Summit/blob/main/Summit/Assets/preview%20frozen.png?raw=true)
+
+![](https://github.com/CalculatorSoup/Hollow_Summit/blob/main/Summit/Assets/preview%20simulacrum.png?raw=true)
 
 # Other Features
 
-- Various fun lunar-themed features
-  - Some lunar chimeras can spawn
-  - A pot of soup may appear somewhere
+- Some lunar chimeras can spawn
+- A soup cauldron (White -> Green or rarely Red -> White) has a chance to appear each time you visit the stage
 - Config Options
   - Hollow Summit - Enabled (true/false)
   - Frozen Summit - Enabled, Exclusive to Looping, Swap Places with Hollow Summit (true/false)
   - Simulacrum Variant - Enabled, Enabled on Stage 1 (true/false)
-  - Modded monster toggles
+  - Modded enemy toggles
 - Modded enemies can appear if their respective mod is enabled
-  - Ancient Wisp
-  - Archaic Wisp (replaces Greater Wisps)
-  - Clay Man (replaces Imps on Hollow Summit)
-  - RecoveredAndReformed/Stripped: Iota Construct
-  - EnemiesReturns: Lynx Totem
-  - Sandswept: Delta Construct
+  - [Ancient Wisp](https://thunderstore.io/package/Moffein/Archaic_Wisp/)
+  - [Archaic Wisp](https://thunderstore.io/package/Moffein/Archaic_Wisp/) (replaces Greater Wisps)
+  - [Clay Man](https://thunderstore.io/package/Moffein/Clay_Men/) (replaces Imps on Hollow Summit)
+  - [RecoveredAndReformed](https://thunderstore.io/package/prodzpod/RecoveredAndReformed/)/[Stripped](https://thunderstore.io/package/Phreel/RecoveredAndReformedStripped/): Iota Construct
+  - [EnemiesReturns](https://thunderstore.io/package/Risky_Sleeps/EnemiesReturns/): Lynx Totem
+  - [Sandswept](https://thunderstore.io/package/SandsweptTeam/Sandswept/): Delta Construct
 
 # Bugs / Issues
 
 Please let me know on GitHub and/or Discord (@worms / @ry6240) if you encounter any issues with the map. Also feel free to message me if you have suggestions or other feedback!
 
 **Known issues:**
-- There is no artifact teleporter
-  - Yeah sorry this is the second Stage 5 map I've uploaded without one. I tried to get it working again but it's just above my skill level I think. One day there will be an update where a working artifact teleporter is added and it will be cool
+- The map doesn't have an artifact teleporter
+  - Yeah sorry this is the second Stage 5 map I've uploaded without one. Hopefully some day I will discover how to add it
+
+![](https://github.com/CalculatorSoup/Hollow_Summit/blob/main/Summit/Assets/preview%20full.png?raw=true)
