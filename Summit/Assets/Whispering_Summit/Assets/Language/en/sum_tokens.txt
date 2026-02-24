@@ -1,0 +1,18 @@
+{
+	"strings": {
+		"WORM_SUMMIT_NAME": "Hollow Summit",
+		"WORM_SUMMIT_SUBTITLE": "Warped Excavation",
+		"WORM_BAZAAR_SEER_SUMMIT": "<style=cWorldEvent>You dream of bitter shards.</style>",
+		"WORM_SUMMIT_LORE": "<style=cMono>Welcome to DataScraper (v3.1.53 - beta branch)\n$ Scraping memory... done.\n$ Resolving... done.\n$ Combing for relevant data... done.\nComplete!\nOutputting local audio transcriptions...\n\n</style>Found another one of those stone portal things. You know, with the prongs or whatever. Probably like the tenth one I've gone through, or something... I'm kind of losing track, haha. Uh, anyway, this one looked a bit more crude than the others, I think. Like if you tried to make one out of funny putty or something.\r\n\r\nBut, uh, I'm on top of a mountain now. It's been hollowed out, I think. There was some kind of mining operation but it looks like it's been left here for a while. The air is frigid, like you'd expect, but the ground is strangely warm? I lit up a fire here and I think I'll be staying a while. Not like there's anyone around to stop me.\r\n\r\n...\r\n\r\nWell, it's getting dark. That giant shattered moon is filling up the sky now and I'm starting to see, uh, weird things. I've seen chunks of rock fly off the walls and float away, there's strange spiky growths forming everywhere... I think I've stayed here long enough.\r\n\r\n...\r\n\r\nO-okay I'm freaking out. I could swear I heard a large THUD and now I'm hearing this skittering and stomping all around me and I can't see anything but I - I swear it's getting closer. I found another portal but it - it isn't working? I can't - I need this to work, I can't just stay here! C'mon, do something..! O-oh my god! Please, please! Let me out! Let me out of here! PL--",
+
+		"UNLOCKABLE_LOG_STAGES_SUMMIT": "Environment Log: Hollow Summit",
+
+		"WORM_LOOP_SUMMIT_NAME": "Frozen Summit",
+		"WORM_LOOP_SUMMIT_SUBTITLE": "Biting Cold",
+		"WORM_BAZAAR_SEER_LOOP_SUMMIT": "<style=cWorldEvent>You dream of frozen shards.</style>",
+		"WORM_LOOP_SUMMIT_LORE": "<style=cMono>Welcome to DataScraper (v3.1.53 - beta branch)\n$ Scraping memory... done.\n$ Resolving... done.\n$ Combing for relevant data... done.\nComplete!\nOutputting local audio transcriptions...\n\n</style>--EASE!! ...O-oh my god. It worked!? haha, hahahaha! Holy ||||. Haha... ugh...\r\n\r\n...\r\n\r\n...So... I'm, still catching my breath... but I've been looking around, and this is actually the same mountain, I think. Like, the one I just, uh, escaped from. But it's covered in snow now. And I don't hear anything, yet. But the shards are still here, and there's still those rocks floating up...\r\n\r\nI know I've been doing this for \"valuable geological research\", and all that... but surely I've gotten enough data by this point, yeah? Yeah, It's fine, I'll just make my way back to [REDACTED].\r\n\r\n...How do I get to it from here, anyway..?",
+
+		"UNLOCKABLE_LOG_STAGES_LOOP_SUMMIT": "Environment Log: Frozen Summit"
+		
+	}
+}

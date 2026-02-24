@@ -1,0 +1,14 @@
+ManifestFileVersion: 0
+CRC: 4250625757
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: runtimelopassetbundle
+      Dependencies: {}
+    Info_1:
+      Name: assets
+      Dependencies: {}
+    Info_2:
+      Name: scenes
+      Dependencies:
+        Dependency_0: assets
