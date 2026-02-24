@@ -43,7 +43,7 @@ namespace Summit
     {
         public const string Author = "wormsworms";
 
-        public const string Name = "Hollow_Crest";
+        public const string Name = "Hollow_Summit";
 
         public const string Version = "0.1.0";
 

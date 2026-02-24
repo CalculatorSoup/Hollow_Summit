@@ -498,3 +498,17 @@ MonoBehaviour:
       - d496cf785132f74469a0d9f51109e894
       - 1685d58162bfc8c46bc8557232ecdbb7
       - 56028f327cfd21b42b6c9d5509e5e3d9
+  - cacheKey:
+      requiredType:
+        assemblyQualifiedName: RoR2.ExpansionManagement.ExpansionDef, RoR2, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      entriesIncludeComponentFoundInChildren: 0
+    cacheHit:
+      pathCache:
+      - RoR2/DLC1/Common/DLC1.asset
+      - RoR2/DLC2/Common/DLC2.asset
+      - RoR2/DLC3/DLC3.asset
+      guidsCache:
+      - d4f30c23b971a9b428e2796dc04ae099
+      - 851f234056d389b42822523d1be6a167
+      - 234e83997deed274291470be69e7662e

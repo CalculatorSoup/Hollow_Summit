@@ -40,8 +40,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaBias: 0
-    - _AlphaBoost: 0.3
-    - _Boost: 5
+    - _AlphaBoost: 0.5
+    - _Boost: 10
     - _BumpScale: 1
     - _CalcTextureAlphaOn: 0
     - _CloudOffsetOn: 0
@@ -52,7 +52,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DisableRemapOn: 0
     - _DistortionStrength: -0.2
-    - _DstBlend: 1
+    - _DstBlend: 10
     - _ExternalAlpha: 1
     - _Fade: 1
     - _FadeCloseDistance: 0.5
@@ -72,7 +72,7 @@ Material:
     - _SkyboxOnly: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _UVSec: 0
     - _UseUV1On: 0
     - _VertexAlphaOn: 0
@@ -84,5 +84,5 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CutoffScroll: {r: -2, g: 0, b: -2, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TintColor: {r: 0, g: 0.53772783, b: 1, a: 1}
+    - _TintColor: {r: 0, g: 0.5368862, b: 1, a: 1}
   m_BuildTextureStacks: []
