@@ -2,7 +2,7 @@
 
 An alternate Stage 5 environment set atop a snowcapped mountain that was hollowed out by an abandoned mining operation and is now being slowly corrupted by the moon looming above it.
 
-The map has a unique layout that's probably closest to Helminth Hatchery, but if it was wider and shorter. The center of the map is a giant cavern with openings leading to slopes and cliffs that wrap around the mountain, leading to an upper layer near the peak. There are jump pads and air tunnels (like the ones in Repurposed Crater) scattered everywhere to help with getting around.
+The map has a unique layout that's probably closest to Helminth Hatchery, but if it was wider and shorter. The center of the map is a giant cavern with openings leading to slopes and cliffs that wrap around the mountain, leading to an upper layer near the peak. There are jump pads and air tunnels (like the ones in Repurposed Crater) scattered throughout the map to help with getting around.
 
 ![](https://github.com/CalculatorSoup/Hollow_Summit/blob/main/Summit/Assets/preview%20cliff.png?raw=true)
 
@@ -39,6 +39,6 @@ Please let me know on GitHub and/or Discord (@worms / @ry6240) if you encounter 
 
 **Known issues:**
 - The map doesn't have an artifact teleporter
-  - Yeah sorry this is the second Stage 5 map I've uploaded without one. Hopefully some day I will discover how to add it
+  - Yeah sorry this is the second Stage 5 map I've uploaded without one. I tried adding it again but wasn't able to get it working. Hopefully eventually there will be an update to the map that adds this and it will be cool
 
 ![](https://github.com/CalculatorSoup/Hollow_Summit/blob/main/Summit/Assets/preview%20full.png?raw=true)

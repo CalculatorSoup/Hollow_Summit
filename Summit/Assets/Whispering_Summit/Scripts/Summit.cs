@@ -45,7 +45,7 @@ namespace Summit
 
         public const string Name = "Hollow_Summit";
 
-        public const string Version = "0.1.0";
+        public const string Version = "0.1.2";
 
         public const string GUID = Author + "." + Name;
 

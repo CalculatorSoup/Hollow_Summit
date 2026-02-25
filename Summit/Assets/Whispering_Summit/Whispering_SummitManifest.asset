@@ -31,7 +31,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StagingPaths:
   - <ManifestPluginStaging>
-  url: 
+  url: https://github.com/CalculatorSoup/Hollow_Summit
 --- !u!114 &-732514325962398760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,8 +88,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Data:
   - {fileID: 171841700590212042}
-  - {fileID: -732514325962398760}
   - {fileID: 365718730013553393}
+  - {fileID: -732514325962398760}
   - {fileID: -6955935644556168210}
   - {fileID: -696405432442314894}
   - {fileID: -6465034321272946658}
@@ -111,18 +111,18 @@ MonoBehaviour:
   - <ManifestPluginStaging>
   Author: wormsworms
   Name: Hollow_Summit
-  Description: Alternate Stage 5 map set in an abandoned mine on a snowy mountaintop.
-    Configurable!
-  Version: 0.1.0
+  Description: An alternate Stage 5 map set in an abandoned mine on a snowcapped
+    mountaintop. Configurable!
+  Version: 0.1.2
   Dependencies:
   - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
   - {fileID: 11400000, guid: f0d760e9d4649854da675f3b2978b41b, type: 2}
   - {fileID: 11400000, guid: 1f1d261aeee91427ddd08b6378ec4e5a, type: 2}
-  - {fileID: 11400000, guid: 1938606488471c579b629a339fdab043, type: 2}
   - {fileID: 11400000, guid: d7d8ed5ac59df8acbbc4983f1ebba079, type: 2}
   - {fileID: 11400000, guid: 98480314448d120c05e373472456e52b, type: 2}
   - {fileID: 11400000, guid: 184f0fdf3edcd6bad171410f4e0fd947, type: 2}
   - {fileID: 11400000, guid: 48f050b3512173aba0a952f846a557fa, type: 2}
+  - {fileID: 11400000, guid: bff73382628f698c89c1d9ae43c8f350, type: 2}
 --- !u!114 &365718730013553393
 MonoBehaviour:
   m_ObjectHideFlags: 0

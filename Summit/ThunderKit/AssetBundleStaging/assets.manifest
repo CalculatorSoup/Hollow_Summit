@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1379860657
+CRC: 3734142125
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 858ea25f20dc5a9ba61aa7d4e86937c4
+    Hash: 7d66572b73635a248c2d0f6cca2706cd
   TypeTreeHash:
     serializedVersion: 2
     Hash: d798feb45870cc0b2fbbfaaa473a43d1
@@ -187,6 +187,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Speedtree Override/SpeedTreeCustom.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater -
   DX11.shader
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/GroundNodes.asset
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HGUIBarRemap.shader
 - Assets/Whispering_Summit/Assets/Materials/matSUMSilver.mat
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Mobile
@@ -280,6 +281,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/DCCS/dccsSUMInteractablesDLC2.asset
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Core/Outline/OutlineHighlightNew.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Optimized/Mods/DoublePassUnlitTemplate.shader
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/AirNodes.asset
 - Assets/Whispering_Summit/Assets/Meshes/golemplains_props_0.asset
 - Assets/Whispering_Summit/Assets/DCCS/Simulacrum/Targets/dccsITSUMSceneMonstersDLC3.asset
 - Assets/Whispering_Summit/Assets/Materials/Textures/texCloudOrganicNormal.png
