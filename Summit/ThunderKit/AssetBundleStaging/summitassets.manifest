@@ -1,0 +1,347 @@
+ManifestFileVersion: 0
+CRC: 28013132
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 421c141ff4c5cdbec7d87d99eedc1061
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d798feb45870cc0b2fbbfaaa473a43d1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b585ce31f93d58489807db4907df51d, type: 3}
+- Class: 114
+  Script: {fileID: 495100722, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+- Class: 114
+  Script: {fileID: 2099981080, guid: 45feadaaa90b2d2217207fb8b533753e, type: 3}
+- Class: 114
+  Script: {fileID: 2014855634, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -104859921, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1864444436, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -609359282, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 2011136271, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -794597441, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: -1746479147, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedExpansionDef
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedSpawnCard
+- AssemblyName: R2API.Addressables
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedUnlockableDef
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressReferencedAssets.AddressReferencedFamilyDirectorCardCategorySelection
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/Category
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/ConditionalPoolEntry
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDCCSPool/PoolEntry
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDirectorCard
+- AssemblyName: R2API.Director
+  ClassName: R2API.AddressableDirectorCardCategorySelection/Category
+- AssemblyName: RoR2
+  ClassName: RoR2.AssetReferenceScene
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/Link
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/LinkListIndex
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/Node
+- AssemblyName: RoR2
+  ClassName: RoR2.Navigation.NodeGraph/NodeIndex
+- AssemblyName: RoR2
+  ClassName: SerializableBitArray
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceGameObject
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceT`1[UnityEngine.Material]
+- AssemblyName: Unity.Addressables
+  ClassName: UnityEngine.AddressableAssets.AssetReferenceTexture
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.BoolParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.ColorParameter
+- AssemblyName: Unity.Postprocessing.Runtime
+  ClassName: UnityEngine.Rendering.PostProcessing.FloatParameter
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+Assets:
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGSobelBuffer.shader
+- Assets/Whispering_Summit/Assets/DCCS/dpSUMMonsters.asset
+- Assets/Whispering_Summit/Assets/PP Profiles/SUMRed PP + Amb.asset
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneMonsters.asset
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGVisionLimit.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dpSUMLoopSceneMonsters.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texFSCWaterNormal.jpg
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGIntersectionCloudRemap.shader
+- Assets/Whispering_Summit/Assets/DCCS/Logs.Stages.hollowsummit_wormsworms.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/CustomPostProcess/SobelRain.shader
+- Assets/Whispering_Summit/Assets/Meshes/Summit Mass Ore.fbx
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Core/Outline/OutlineHighlightSurf.shader
+- Assets/Whispering_Summit/Assets/Meshes/Summit OOB Terrain.fbx
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Shaders/ProjectorCaustics.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneInteractablesDLC3.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Le Tai's Asset/TranslucentImage/FormerResources/QuickDumbBlur.shader
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/dccsITSUMMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMCaveRock.mat
+- Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Psychose Interactive/NGSS/Shaders/NGSS_Directional.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSkybox1Full.png
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMWood.mat
+- Assets/Whispering_Summit/Assets/Materials/Textures/texRampWhiteAlphaOnly.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGCloudRemap.shader
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMInteractables.asset
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMInteractablesDLC1.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dpSUMLoopSceneInteractables.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texEmissive.png
+- Assets/Whispering_Summit/Assets/Materials/Textures/texCloudDifferenceBW2.png
+- Assets/Whispering_Summit/Assets/Materials/Loop/matSUMLoopSkybox.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater -
+  DoubleSided.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Le Tai's Asset/TranslucentImage/FormerResources/TranslucentImage.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneInteractablesDLC1.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGStandardWithDistortion.shader
+- Assets/Whispering_Summit/Assets/Language/en/sum_tokens.txt
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSFAurora.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Le Tai's Asset/TranslucentImage/FormerResources/EfficientBlur.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopInteractablesDLC2.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopInteractablesDLC3.asset
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMMonstersDLC2.asset
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/Targets/dpITSUMSceneMonsters.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGDistantWater.shader
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dpSUMSceneMonsters.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texFSCCliffNormal.jpg
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMCaveSand.png
+- Assets/Whispering_Summit/Assets/Meshes/Summit Lamp.fbx
+- Assets/Whispering_Summit/Assets/texSUMSnowyScenePreview.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_Sprite.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HGUIAnimateAlpha.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/AirNodes.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Surface.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGDistantWaterEmissive1sided.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Speedtree Override/SpeedTreeBillboard.shader
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMTerrain.mat
+- Assets/Whispering_Summit/Assets/Materials/matSUMTerrainSnowy.mat
+- Assets/Whispering_Summit/Assets/Materials/Loop/matSUMLoopTerrain.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGOnTop.shader
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneInteractablesDLC3.asset
+- Assets/Whispering_Summit/Assets/Materials/Loop/matSUMLoopFogOcean.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGWaterfall.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texCloudDifferenceBW1.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/DLC3/Common/SolusVisuals/Shaders/CloudRemapSimplified.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGSnowTopped.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopMonstersDLC2.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopInteractablesDLC1.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMWood.png
+- Assets/Whispering_Summit/Assets/Meshes/Summit Scaffolding.fbx
+- Assets/Whispering_Summit/Assets/Meshes/Summit Pickaxe.fbx
+- Assets/Whispering_Summit/Assets/DCCS/GroundNodes.asset
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMMonstersDLC1.asset
+- Assets/Whispering_Summit/Assets/Materials/matSUMWood.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF
+  SSD.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGFlag.shader
+- Assets/Whispering_Summit/Assets/PP Profiles/SUM Loop PP + Amb.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dpSUMLoopInteractables.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGScopeShader.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Speedtree Override/SpeedTreeCustom.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater -
+  DX11.shader
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/GroundNodes.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HGUIBarRemap.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMSilver.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Mobile
+  Masking.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texPromenadePurpleTrimsheet.png
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/Targets/dccsITSUMSceneMonstersDLC2.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Psychose Interactive/NGSS/Shaders/NGSS_ContactShadows.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Mobile.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texParticleDust1Mask.png
+- Assets/Whispering_Summit/Assets/Materials/Textures/texPromenadePurpleTrimsheetNormal.png
+- Assets/Whispering_Summit/Assets/DCCS/dpSUMInteractables.asset
+- Assets/Whispering_Summit/Assets/Meshes/LaptopMesh.asset
+- Assets/Whispering_Summit/Assets/Meshes/Summit Diorama.fbx
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Internal-ScreenSpaceShadows_Cheaper.shader
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMTrim.mat
+- Assets/Whispering_Summit/Assets/Meshes/Summit Drill.fbx
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneInteractablesDLC2.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGOpaqueCloudRemap.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texCloud1.png
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMSnowPatterned.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGOutlineHighlight.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/CustomPostProcess/RampFog.shader
+- Assets/Whispering_Summit/Assets/Meshes/Summit Roof Piece 1.fbx
+- Assets/Whispering_Summit/Assets/Materials/matStarTrail.mat
+- Assets/Whispering_Summit/Assets/Materials/Loop/matLunarAuroraStrong.mat
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneMonstersDLC2.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGDistortion.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMBronze.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF
+  Overlay.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMPebble.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater -
+  SingleSided.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMFogOcean.mat
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/dccsITSUMMonsters.asset
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMPebble.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_Bitmap-Mobile.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dpSUMLoopMonsters.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneInteractables.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGGrass.shader
+- Assets/Whispering_Summit/Assets/PP Profiles/SUM PP + Amb.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texRampDefault.png
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/dccsITSUMMonstersDLC1.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopInteractables.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/DLC3/Common/SolusVisuals/Shaders/OpaqueTextureScrolling.shader
+- Assets/Whispering_Summit/Assets/Prefabs/SUMSnowyDiorama.prefab
+- Assets/Whispering_Summit/Assets/Materials/Loop/matSUMSnow.mat
+- Assets/Whispering_Summit/Assets/Meshes/RoR1 TP.fbx
+- Assets/Whispering_Summit/Assets/DCCS/hollowsummit_wormsworms.asset
+- Assets/Whispering_Summit/Assets/Materials/Loop/matSUMBigDust.mat
+- Assets/Whispering_Summit/Assets/Materials/Textures/texLTSkybox.png
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texTrimSheetMedical.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Psychose Interactive/NGSS/Shaders/NGSS_FrustumShadows.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGTriplanarTerrainBlend.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HGUIOverbrighten.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Logs.Stages.hollowsummitnight_wormsworms.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Decalicious/FormerResources/DecaliciousGameObjectID.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGVertexOnly.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Surface-Mobile.shader
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/itsummit_wormsworms.asset
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/Targets/dccsITSUMSceneMonstersDLC1.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Core/CameraEffects/HGScreenDamage.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGSolidParallax.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Mobile
+  Overlay.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/CustomPostProcess/SceneTint.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMCaveRock.mat
+- Assets/Whispering_Summit/Assets/Materials/matSUMTerrain.mat
+- Assets/Whispering_Summit/Assets/Prefabs/SUMDiorama.prefab
+- Assets/Whispering_Summit/Assets/Meshes/Summit Cave Scaffolding.fbx
+- Assets/Whispering_Summit/Assets/Materials/Textures/texTrimSheetMetalNormal.png
+- Assets/Whispering_Summit/Assets/Materials/Textures/texRampTwotoneEnvironment.png
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopMonsters.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSummitMud.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HGUIIgnoreZ.shader
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneInteractablesDLC1.asset
+- Assets/Whispering_Summit/Assets/Materials/Loop/matSUMLoopTrim.mat
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMFogOcean.mat
+- Assets/Whispering_Summit/Assets/Meshes/Summit Tracks.fbx
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGForwardPlanet.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/CustomPostProcess/SobelOutline.shader
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMMonsters.asset
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/texSUMScenePreview.png
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/dccsITSUMMonstersDLC2.asset
+- Assets/Whispering_Summit/Assets/Prefabs/Summit Lamp.prefab
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Decalicious/Shader/DecaliciousUnlitDecal.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Mobile
+  SSD.shader
+- Assets/Whispering_Summit/Assets/Meshes/Summit Terrain.fbx
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMCliffDarker.png
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMInteractablesDLC2.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Core/Outline/OutlineHighlightNew.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Optimized/Mods/DoublePassUnlitTemplate.shader
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/AirNodes.asset
+- Assets/Whispering_Summit/Assets/Meshes/golemplains_props_0.asset
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/Targets/dccsITSUMSceneMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texCloudOrganicNormal.png
+- Assets/Whispering_Summit/Assets/DCCS/AirNodes.asset
+- Assets/Whispering_Summit/Assets/Meshes/Summit Pebble.fbx
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matSkyboxInfiniteTower.mat
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSFAuroraMask.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Le Tai's Asset/TranslucentImage/FormerResources/DownTent.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texRampMagmaWorm.png
+- Assets/Whispering_Summit/Assets/Meshes/Summit Aurora.fbx
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSkyboxVoid.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater -
+  DX11 - DoubleSided.shader
+- Assets/Whispering_Summit/Assets/Meshes/Summit Boulder.fbx
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMGrassPatternedDesat2.png
+- Assets/Whispering_Summit/Assets/DCCS/Loop/GroundNodes.asset
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/dpITSUMMonsters.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneMonstersDLC1.asset
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneInteractables.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/CustomPostProcess/HopooSSR.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMYellowEmis.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/README.md
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dpSUMSceneInteractables.asset
+- Assets/Whispering_Summit/Assets/Materials/matLunarAurora.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGStandard.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGStandardTextureScrolling.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMTrim.mat
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HGUIBlur.shader
+- Assets/Whispering_Summit/Assets/DCCS/dccsSUMInteractablesDLC3.asset
+- Assets/Whispering_Summit/Assets/DCCS/Simulacrum/Targets/dccsITSUMSceneMonsters.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_Bitmap.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Scenes/skymeadow/Shaders/Fill-Linear.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/DLC3/Common/SolusVisuals/Shaders/TransparentTextureScrolling.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGWavyCloth.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/MobileBlur.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HealthBar.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGDamageNumber.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMGrassPatternedWeird.png
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITAurora.mat
+- Assets/Whispering_Summit/Assets/Materials/matSUMSkybox.mat
+- Assets/Whispering_Summit/Assets/Meshes/Summit Design Ore.fbx
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneInteractablesDLC2.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Decalicious/Shader/DecaliciousDeferredDecal.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Scripts/ImageEffect/FormerResources/UnderWaterFog.shader
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/UI/HGUICustomBlend.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneMonstersDLC2.asset
+- Assets/Whispering_Summit/Assets/DCCS/Loop/hollowsummitnight_wormsworms.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/Le Tai's Asset/TranslucentImage/FormerResources/FillCrop.shader
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMCaveSandBrown.png
+- Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopMonstersDLC1.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSUMSnow.png
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/DamageIndicator.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMMetal.mat
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneMonsters.asset
+- Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneMonstersDLC1.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF.shader
+- Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneMonstersDLC3.asset
+Dependencies: []

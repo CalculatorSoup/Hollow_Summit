@@ -41,7 +41,7 @@ Material:
     m_Floats:
     - _AlphaBias: 0
     - _AlphaBoost: 0.1
-    - _Boost: 4
+    - _Boost: 2
     - _BumpScale: 1
     - _CalcTextureAlphaOn: 0
     - _CloudOffsetOn: 0

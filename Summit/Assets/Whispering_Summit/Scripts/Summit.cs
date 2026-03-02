@@ -45,7 +45,7 @@ namespace Summit
 
         public const string Name = "Hollow_Summit";
 
-        public const string Version = "0.1.2";
+        public const string Version = "1.0.0";
 
         public const string GUID = Author + "." + Name;
 
@@ -213,12 +213,79 @@ namespace Summit
 
             if (newScene.name == RegularSceneName || newScene.name == SnowySceneName)
             {
+                ArtifactTeleporterSetup(); // deleting unneeded objects from Sky Meadow artifact teleporter prefab
+                
                 GameObject moonMesh = GameObject.Find("ShatteredMoonMesh");
                 moonMesh.layer = 9; // moving this to the NoCollision layer so the "Moon Light" in the stage can illuminate it
                 GameObject moonHolder = GameObject.Find("MoonHolder");
                 moonHolder.transform.localScale = Vector3.one * 1.5f; // upscaling the moon
                 GameObject donut = GameObject.Find("AtmosphereDonut");
                 donut.SetActive(false); //removing halation (becomes offset and looks kinda bad when the moon is upscaled)
+                GameObject moonPrefab = GameObject.Find("SM_SkyboxPrefab(Clone)");
+
+                //both loops destroy clouds/particles attached to the moon prefab
+                for (int i = 0; i < moonHolder.transform.childCount; i++)
+                {
+                    if (moonHolder.transform.GetChild(i).gameObject.name.Contains("Cloud"))
+                    {
+                        UnityEngine.Object.Destroy(moonHolder.transform.GetChild(i).gameObject); // destroy clouds
+                    }
+                }
+                for (int i = 0; i < moonPrefab.transform.childCount; i++)
+                {
+                    if (moonPrefab.transform.GetChild(i).gameObject.name.Contains("Cloud") || moonPrefab.transform.GetChild(i).gameObject.name.Contains("SmallStars"))
+                    {
+                        UnityEngine.Object.Destroy(moonPrefab.transform.GetChild(i).gameObject); // destroy clouds or stars
+                    }
+                }
+
+
+            }
+        }
+
+        // Instantiate Artifact Portal doesn't include props, and some artifact portal props aren't available as prefabs, so instead I just add the prefab with the teleporter + sky meadow island
+        // and hide the objects I don't want
+        public void ArtifactTeleporterSetup()
+        {
+            string[] islandObjectNames =
+                { "MS_FloatingIsland1", "Final Zone/Grass", "ChainlinkSet", "ChainlinkSet (1)", "ChainlinkSet (2)", "ChainlinkSet (3)", "TP Area Holder/MiscProps",
+                "LShapeScaffolding", "StaircaseScaffolding", "Formula/spmSMGrassSmallCluster", "Formula/spmSMGrassSmallCluster (1)", "Formula/spmSMGrassSmallCluster (2)",
+                "Formula/spmSMFruitPlant", "PortalDialer/spmSMGrassSmallCluster (3)", "PortalDialer/spmSMGrassSmallCluster (4)",
+                "PortalDialerButton 1", "PortalDialerButton 2", "PortalDialerButton 3", "PortalDialerButton 4", "PortalDialerButton 5", "PortalDialerButton 6", "PortalDialerButton 7",
+                "PortalDialerButton 8", "PortalDialerButton 9", "PortalDialer", "Final Zone/MiscProps"
+                };
+
+            //Deactivate and/or destroy objects
+            foreach (string objectName in islandObjectNames)
+            {
+                if (GameObject.Find(objectName) != null)
+                {
+                    //GameObject.Find(objectName).SetActive(false);
+                    UnityEngine.Object.Destroy(GameObject.Find(objectName));
+                }
+            }
+            
+            Material metalMat = SummitContent.MetalMaterial;
+
+            GameObject powerlineHolder1 = GameObject.Find("Final Zone/PowerLines");
+            string[] miscMetalItems = { "mega teleporter/PowerLine, Huge", "Powerline/SM_PowerLine(Clone)", "Generator 1/SM_PowerLineGenerator(Clone)",
+                "FW_CellTowerSnowy(Clone)/HumanLargeCellTowerMesh", "Generator 2/SM_PowerLineGenerator(Clone)", "PowerCoil, 1/PowerLine1 (1)", "LOP_ArtifactLaptop(Clone)/FW_Crate" };
+
+            for (int i = 0; i < powerlineHolder1.transform.childCount; i++)
+            {
+                if (powerlineHolder1.transform.GetChild(i).name.Contains("PowerLine"))
+                {
+                    powerlineHolder1.transform.GetChild(i).TryGetComponent(out MeshRenderer childMeshRenderer);
+                    childMeshRenderer.material = metalMat;
+                }
+            }
+            foreach (string objectName in miscMetalItems)
+            {
+                if (GameObject.Find(objectName) != null)
+                {
+                    GameObject.Find(objectName).TryGetComponent(out MeshRenderer meshRenderer);
+                    meshRenderer.material = metalMat;
+                }
             }
         }
 

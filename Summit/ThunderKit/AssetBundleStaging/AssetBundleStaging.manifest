@@ -1,14 +1,14 @@
 ManifestFileVersion: 0
-CRC: 2488012568
+CRC: 2925981212
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: runtimelopassetbundle
       Dependencies: {}
     Info_1:
-      Name: assets
+      Name: summitassets
       Dependencies: {}
     Info_2:
-      Name: scenes
+      Name: summitscenes
       Dependencies:
-        Dependency_0: assets
+        Dependency_0: summitassets

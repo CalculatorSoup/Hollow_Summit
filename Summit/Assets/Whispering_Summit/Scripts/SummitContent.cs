@@ -25,8 +25,8 @@ namespace Summit.Content
     public static class SummitContent
     {
 
-        internal const string ScenesAssetBundleFileName = "Scenes";
-        internal const string AssetsAssetBundleFileName = "Assets";
+        internal const string ScenesAssetBundleFileName = "SummitScenes";
+        internal const string AssetsAssetBundleFileName = "SummitAssets";
 
         private static AssetBundle _scenesAssetBundle;
         private static AssetBundle _assetsAssetBundle;
@@ -49,6 +49,9 @@ namespace Summit.Content
         internal static Sprite simuSceneDefPreviewSprite;
         internal static Material simuBazaarSeer;
 
+        //Materials
+        internal static Material MetalMaterial;
+
         public static List<Material> SwappedMaterials = new List<Material>();
 
         internal static IEnumerator LoadAssetBundlesAsync(AssetBundle scenesAssetBundle, AssetBundle assetsAssetBundle, IProgress<float> progress, ContentPack contentPack)
@@ -66,16 +69,18 @@ namespace Summit.Content
             {
                 contentPack.unlockableDefs.Add(assets);
             }));
-            
 
-            
+            yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Material[]>)((assets) =>
+            {
+                MetalMaterial = assets.First(a => a.name == "matSUMMetal");
+            }));
+
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<Sprite[]>)((assets) =>
             {
                 summitSceneDefPreviewSprite = assets.First(a => a.name == "texSUMScenePreview");
                 snowySceneDefPreviewSprite = assets.First(a => a.name == "texSUMSnowyScenePreview");
                 simuSceneDefPreviewSprite = assets.First(a => a.name == "texSUMScenePreview");
             }));
-            
 
             yield return LoadAllAssetsAsync(_assetsAssetBundle, progress, (Action<SceneDef[]>)((assets) =>
             {

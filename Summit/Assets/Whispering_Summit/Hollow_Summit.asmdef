@@ -40,7 +40,8 @@
         "ClayMen.dll",
         "EnemiesReturns.dll",
         "RecoveredAndReformed.dll",
-        "Sandswept.dll"
+        "Sandswept.dll",
+        "R2API.Prefab.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

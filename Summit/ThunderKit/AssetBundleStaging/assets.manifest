@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3734142125
+CRC: 958674646
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7d66572b73635a248c2d0f6cca2706cd
+    Hash: 421c141ff4c5cdbec7d87d99eedc1061
   TypeTreeHash:
     serializedVersion: 2
     Hash: d798feb45870cc0b2fbbfaaa473a43d1
@@ -109,9 +109,10 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGSobelBuffer.shader
 - Assets/Whispering_Summit/Assets/DCCS/dpSUMMonsters.asset
+- Assets/Whispering_Summit/Assets/PP Profiles/SUMRed PP + Amb.asset
 - Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneMonsters.asset
-- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGVisionLimit.shader
 - Assets/Whispering_Summit/Assets/DCCS/dccsSUMMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGVisionLimit.shader
 - Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dpSUMLoopSceneMonsters.asset
 - Assets/Whispering_Summit/Assets/Materials/Textures/texFSCWaterNormal.jpg
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGIntersectionCloudRemap.shader
@@ -124,6 +125,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneInteractablesDLC3.asset
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/Le Tai's Asset/TranslucentImage/FormerResources/QuickDumbBlur.shader
 - Assets/Whispering_Summit/Assets/DCCS/Simulacrum/dccsITSUMMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMCaveRock.mat
 - Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/Psychose Interactive/NGSS/Shaders/NGSS_Directional.shader
 - Assets/Whispering_Summit/Assets/Materials/Textures/texSkybox1Full.png
@@ -181,7 +183,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF
   SSD.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGFlag.shader
-- Assets/Whispering_Summit/Assets/PP Profiles/SUM PP + Amb Profile.asset
+- Assets/Whispering_Summit/Assets/PP Profiles/SUM Loop PP + Amb.asset
 - Assets/Whispering_Summit/Assets/DCCS/Loop/dpSUMLoopInteractables.asset
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/HGScopeShader.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Speedtree Override/SpeedTreeCustom.shader
@@ -228,7 +230,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/DCCS/Loop/dpSUMLoopMonsters.asset
 - Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneInteractables.asset
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Environment/HGGrass.shader
-- Assets/Whispering_Summit/Assets/PP Profiles/SUMSnowy PP + Amb Profile 1.asset
+- Assets/Whispering_Summit/Assets/PP Profiles/SUM PP + Amb.asset
 - Assets/Whispering_Summit/Assets/Materials/Textures/texRampDefault.png
 - Assets/Whispering_Summit/Assets/DCCS/Simulacrum/dccsITSUMMonstersDLC1.asset
 - Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopInteractables.asset
@@ -240,6 +242,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/Materials/Loop/matSUMBigDust.mat
 - Assets/Whispering_Summit/Assets/Materials/Textures/texLTSkybox.png
 - Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopMonstersDLC3.asset
+- Assets/Whispering_Summit/Assets/Materials/Textures/texTrimSheetMedical.png
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_Bitmap-Custom-Atlas.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/Psychose Interactive/NGSS/Shaders/NGSS_FrustumShadows.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/Deferred/HGTriplanarTerrainBlend.shader
@@ -255,9 +258,11 @@ Assets:
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF-Mobile
   Overlay.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/CustomPostProcess/SceneTint.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMCaveRock.mat
 - Assets/Whispering_Summit/Assets/Materials/matSUMTerrain.mat
 - Assets/Whispering_Summit/Assets/Prefabs/SUMDiorama.prefab
 - Assets/Whispering_Summit/Assets/Meshes/Summit Cave Scaffolding.fbx
+- Assets/Whispering_Summit/Assets/Materials/Textures/texTrimSheetMetalNormal.png
 - Assets/Whispering_Summit/Assets/Materials/Textures/texRampTwotoneEnvironment.png
 - Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopMonsters.asset
 - Assets/Whispering_Summit/Assets/Materials/Textures/texSummitMud.png
@@ -292,6 +297,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/Le Tai's Asset/TranslucentImage/FormerResources/DownTent.shader
 - Assets/Whispering_Summit/Assets/Materials/Textures/texRampMagmaWorm.png
 - Assets/Whispering_Summit/Assets/Meshes/Summit Aurora.fbx
+- Assets/Whispering_Summit/Assets/Materials/Textures/texSkyboxVoid.png
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/Calm Water/Shaders/CalmWater -
   DX11 - DoubleSided.shader
 - Assets/Whispering_Summit/Assets/Meshes/Summit Boulder.fbx
@@ -333,6 +339,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/DCCS/Loop/dccsSUMLoopMonstersDLC1.asset
 - Assets/Whispering_Summit/Assets/Materials/Textures/texSUMSnow.png
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/PostProcess/DamageIndicator.shader
+- Assets/Whispering_Summit/Assets/Materials/matSUMMetal.mat
 - Assets/Whispering_Summit/Assets/DCCS/Loop/Targets/dccsSUMLoopSceneMonsters.asset
 - Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneMonstersDLC1.asset
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/TextMesh Pro/FormerResources/Shaders/TMP_SDF.shader

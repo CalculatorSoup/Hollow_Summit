@@ -21,6 +21,8 @@ namespace Summit.Content
             var assetsFolderFullPath = Path.GetDirectoryName(typeof(ContentProvider).Assembly.Location);
             assetDirectory = assetsFolderFullPath;
 
+            InstantiateArtifactPortal.CreateAndRegisterLaptop(_contentPack);
+
             /*FSCContent.LoadSoundBank(assetsFolderFullPath);*/
 
             AssetBundle scenesAssetBundle = null;

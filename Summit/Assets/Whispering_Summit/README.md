@@ -37,8 +37,4 @@ Hollow Summit also has two variants:
 
 Please let me know on GitHub and/or Discord (@worms / @ry6240) if you encounter any issues with the map. Also feel free to message me if you have suggestions or other feedback!
 
-**Known issues:**
-- The map doesn't have an artifact teleporter
-  - Yeah sorry this is the second Stage 5 map I've uploaded without one. I tried adding it again but wasn't able to get it working. Hopefully eventually there will be an update to the map that adds this and it will be cool
-
 ![](https://github.com/CalculatorSoup/Hollow_Summit/blob/main/Summit/Assets/preview%20full.png?raw=true)

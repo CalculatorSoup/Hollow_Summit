@@ -47,10 +47,10 @@ MonoBehaviour:
   StagingPaths:
   - <MSUBuildPath>
   assetBundles:
-  - assetBundleName: Assets
+  - assetBundleName: SummitAssets
     assets:
     - {fileID: 102900000, guid: f9634125ee9a53c42a97acabe9f15f7f, type: 3}
-  - assetBundleName: Scenes
+  - assetBundleName: SummitScenes
     assets:
     - {fileID: 102900000, guid: 9e4af4a32a3b3844dbdb6a96544dbff0, type: 3}
     - {fileID: 102900000, guid: 6684e41c5af32c747b840ce9bae36ee7, type: 3}
@@ -113,7 +113,7 @@ MonoBehaviour:
   Name: Hollow_Summit
   Description: An alternate Stage 5 map set in an abandoned mine on a snowcapped
     mountaintop. Configurable!
-  Version: 0.1.2
+  Version: 1.0.0
   Dependencies:
   - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
   - {fileID: 11400000, guid: f0d760e9d4649854da675f3b2978b41b, type: 2}
@@ -123,6 +123,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 184f0fdf3edcd6bad171410f4e0fd947, type: 2}
   - {fileID: 11400000, guid: 48f050b3512173aba0a952f846a557fa, type: 2}
   - {fileID: 11400000, guid: bff73382628f698c89c1d9ae43c8f350, type: 2}
+  - {fileID: 11400000, guid: a644a53693d44639c70550096ce74b93, type: 2}
 --- !u!114 &365718730013553393
 MonoBehaviour:
   m_ObjectHideFlags: 0

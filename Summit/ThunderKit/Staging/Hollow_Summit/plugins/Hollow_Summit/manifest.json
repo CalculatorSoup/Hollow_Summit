@@ -1,7 +1,7 @@
 {
     "name": "Hollow_Summit",
     "author": "wormsworms",
-    "version_number": "0.1.2",
+    "version_number": "1.0.0",
     "website_url": "https://github.com/CalculatorSoup/Hollow_Summit",
     "description": "An alternate Stage 5 map set in an abandoned mine on a snowcapped mountaintop. Configurable!",
     "dependencies": [
@@ -12,6 +12,7 @@
         "RiskofThunder-R2API_Director-2.3.8",
         "RiskofThunder-R2API_Core-5.3.0",
         "Smooth_Salad-ShaderSwapper-1.0.1",
-        "RiskofThunder-HookGenPatcher-1.2.9"
+        "RiskofThunder-HookGenPatcher-1.2.9",
+        "RiskofThunder-R2API_Prefab-1.1.1"
     ]
 }
