@@ -1,8 +1,13 @@
+# 1.0.1
+- Added Simplified Chinese translation (thanks to JunJun5406 on GitHub for submitting this!)
+- Frozen Summit: Re-added some lunar spikes on the peak that I accidentally removed in 1.0.0
+- Frozen Summit: Slightly moved a log that players could sometimes bump into while getting launched by a geyser
+
 # 1.0.0
 - Added an artifact teleporter to Hollow Summit and Frozen Summit, embedded into a cliff face (thanks to Viliger for providing the scripts used to add this!)
 - Hollow Summit: Overhauled lighting. Now set during late dusk / early night with a dark crimson sky (was previously set during mid-day with an aqua / greenish sky)
 - Hollow Summit: Removed some snow piles and replaced them with boulder clusters
-- Hollow Summit: Fixed an egregious (barely noticeable) punctuation error in the logbook entry text
+- Frozen Summit: Fixed an egregious (barely noticeable) punctuation error in the logbook entry text
 - The small cave at the top of the mountain is now more overgrown
 - Added more foliage to the peninsula area connected to the lower teleporter dock
 - Boulders inside caves no longer have grass/snow textures

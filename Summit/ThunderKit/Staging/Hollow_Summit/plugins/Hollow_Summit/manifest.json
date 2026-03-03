@@ -1,7 +1,7 @@
 {
     "name": "Hollow_Summit",
     "author": "wormsworms",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/CalculatorSoup/Hollow_Summit",
     "description": "An alternate Stage 5 map set in an abandoned mine on a snowcapped mountaintop. Configurable!",
     "dependencies": [

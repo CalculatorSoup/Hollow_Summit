@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 28013132
+CRC: 2189626696
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 421c141ff4c5cdbec7d87d99eedc1061
+    Hash: 4d62ebaa5fc947c2015d92a6e6f8b3a2
   TypeTreeHash:
     serializedVersion: 2
     Hash: d798feb45870cc0b2fbbfaaa473a43d1
@@ -270,6 +270,7 @@ Assets:
 - Assets/Whispering_Summit/Assets/DCCS/Targets/dccsSUMSceneInteractablesDLC1.asset
 - Assets/Whispering_Summit/Assets/Materials/Loop/matSUMLoopTrim.mat
 - Assets/Whispering_Summit/Assets/Materials/Simulacrum/matITSUMFogOcean.mat
+- Assets/Whispering_Summit/Assets/Language/zh-CN/sum_tokens.txt
 - Assets/Whispering_Summit/Assets/Meshes/Summit Tracks.fbx
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/FX/HGForwardPlanet.shader
 - Assets/Whispering_Summit/Assets/Stubbed Shaders/RoR2/Base/Shaders/CustomPostProcess/SobelOutline.shader
