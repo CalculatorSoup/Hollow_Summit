@@ -1,3 +1,10 @@
+# 1.0.2
+- The random lunar soup cauldron can now appear in the Simulacrum variant
+- Fixed the Simulacrum variant's scene def having "Should Include in Logbook" enabled (oops)
+- Fixed a couple config options not working as intended (oops 2)
+  - Setting "Frozen Summit: Loop Variant" off would register Hollow Summit twice instead of registering both it and Frozen Summit a single time
+  - Disabling Hollow Summit and leaving Frozen Summit enabled would register Hollow Summit instead of Frozen Summit
+
 # 1.0.1
 - Added Simplified Chinese translation (thanks to JunJun5406 on GitHub for submitting this!)
 - Frozen Summit: Re-added some lunar spikes on the peak that I accidentally removed in 1.0.0

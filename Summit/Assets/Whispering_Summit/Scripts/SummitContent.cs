@@ -138,7 +138,7 @@ namespace Summit.Content
             {
                 //both variants are enabled but the variant can appear at any time
                 R2API.StageRegistration.RegisterSceneDefToNormalProgression(summitSceneDef, (StageRegistration.defaultWeight / 2));
-                R2API.StageRegistration.RegisterSceneDefToNormalProgression(summitSceneDef, (StageRegistration.defaultWeight / 2));
+                R2API.StageRegistration.RegisterSceneDefToNormalProgression(snowySceneDef, (StageRegistration.defaultWeight / 2));
                 Log.Debug("Hollow Summit and Frozen Summit registered. Both stages appear pre & post loop (weight halved)");
             } else if (Summit.enableRegular.Value && !Summit.enableVariant.Value)
             {
@@ -148,7 +148,7 @@ namespace Summit.Content
             } else if (!Summit.enableRegular.Value && Summit.enableVariant.Value)
             {
                 //only Frozen Summit is enabled
-                R2API.StageRegistration.RegisterSceneDefToNormalProgression(summitSceneDef);
+                R2API.StageRegistration.RegisterSceneDefToNormalProgression(snowySceneDef);
                 Log.Debug("Frozen Summit registered only");
             }
 
