@@ -1,3 +1,7 @@
+# 1.0.3
+- Added a few boulders to the wall above the artifact teleporter cave as a way to drop down while avoiding fatal fall damage
+- The artifact teleporter is now added using LocationsOfPrecipitation's script
+
 # 1.0.2
 - The random lunar soup cauldron can now appear in the Simulacrum variant
 - Fixed the Simulacrum variant's scene def having "Should Include in Logbook" enabled (oops)

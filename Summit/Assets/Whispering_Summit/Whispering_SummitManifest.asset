@@ -114,7 +114,7 @@ MonoBehaviour:
   Name: Hollow_Summit
   Description: An alternate Stage 5 map set in an abandoned mine on a snowcapped
     mountaintop. Configurable!
-  Version: 1.0.2
+  Version: 1.0.3
   Dependencies:
   - {fileID: 11400000, guid: 2d4d09ec817c24698d35dc9bf0704fdc, type: 2}
   - {fileID: 11400000, guid: f0d760e9d4649854da675f3b2978b41b, type: 2}
