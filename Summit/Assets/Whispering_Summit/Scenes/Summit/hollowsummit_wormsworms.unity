@@ -75886,11 +75886,11 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.749829, b: 0.654902, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 75
+  m_CookieSize: 200
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -217374,7 +217374,7 @@ MonoBehaviour:
   interactableDccsPool: {fileID: 11400000, guid: 7c450fa9384b87c41bfe44607c78bff3, type: 2}
   contentSourceMixLimitOverride: 1
   contentSourceMixLimitOverrideValue: 3
-  sceneDirectorInteractibleCredits: 540
+  sceneDirectorInteractibleCredits: 520
   sceneDirectorMonsterCredits: 230
   bonusInteractibleCreditObjects: []
   monsterCards: []
@@ -223569,7 +223569,7 @@ MonoBehaviour:
     - {fileID: 876077928}
     - {fileID: 1844576131}
     - {fileID: 499340666}
-    minEnabled: 0
+    minEnabled: 1
     maxEnabled: 1
   - objects:
     - {fileID: 1880367957}

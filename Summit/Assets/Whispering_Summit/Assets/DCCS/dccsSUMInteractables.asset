@@ -350,27 +350,6 @@ MonoBehaviour:
         _useDirectReference: 0
         _canLoadFromCatalog: 0
     selectionWeight: 14
-  - name: Misc
-    cards:
-    - spawnCard:
-        _asset: {fileID: 0}
-        _address: 81e6491f830f9c143bb5954640a383b1
-        _useDirectReference: 0
-      selectionWeight: 7
-      spawnDistance: 0
-      preventOverhead: 0
-      minimumStageCompletions: 0
-      requiredUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-        _canLoadFromCatalog: 0
-      forbiddenUnlockableDef:
-        _asset: {fileID: 0}
-        _address: 
-        _useDirectReference: 0
-        _canLoadFromCatalog: 0
-    selectionWeight: 3
   - name: Rare
     cards:
     - spawnCard:

@@ -41,7 +41,7 @@ MonoBehaviour:
         _asset: {fileID: 0}
         _address: 5a86990b032424e48b4b8456f7d684c9
         _useDirectReference: 0
-      selectionWeight: 5
+      selectionWeight: 3
       spawnDistance: 0
       preventOverhead: 0
       minimumStageCompletions: 0

@@ -1,3 +1,19 @@
+# 1.1.0
+- Interactable changes (all variants):
+  - Reduced interactable credits (540 -> 520) to match Sky Meadow
+  - Turrets can no longer appear
+  - Reduced selection weight for drone triple shops
+  - The bonus soup cauldron is now guaranteed to appear
+- Music changes (all variants):
+  - Stage music now switches to "Mistery" if Alloyed Collective is enabled
+  - Boss music now switches to "Tlālōcān" if Seekers of the Storm is enabled
+- Lighting changes:
+  - Hollow Summit: Increased sun brightness (1.5 -> 3)
+  - Frozen Summit: Increased sun brightness (1 -> 2)
+  - Both variants: Increased "light cookie" (cloud shadow) size (75 -> 200)
+- Ifrit can now appear in Frozen Summit and Hollow Summit's Simulacrum variant if EnemiesReturns is installed
+  - Also added a config option to toggle Ifrit
+
 # 1.0.3
 - Added a few boulders to the wall above the artifact teleporter cave as a way to drop down while avoiding fatal fall damage
 - The artifact teleporter is now added using LocationsOfPrecipitation's script

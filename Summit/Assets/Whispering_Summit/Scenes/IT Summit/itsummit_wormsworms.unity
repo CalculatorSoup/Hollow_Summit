@@ -214430,7 +214430,7 @@ MonoBehaviour:
   interactableDccsPool: {fileID: 0}
   contentSourceMixLimitOverride: 1
   contentSourceMixLimitOverrideValue: 3
-  sceneDirectorInteractibleCredits: 540
+  sceneDirectorInteractibleCredits: 520
   sceneDirectorMonsterCredits: 230
   bonusInteractibleCreditObjects: []
   monsterCards: []
@@ -220134,7 +220134,7 @@ MonoBehaviour:
     - {fileID: 1749580006}
     - {fileID: 1654525959}
     - {fileID: 45837123}
-    minEnabled: 0
+    minEnabled: 1
     maxEnabled: 1
   - objects:
     - {fileID: 1880367957}

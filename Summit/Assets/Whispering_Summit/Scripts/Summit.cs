@@ -45,7 +45,7 @@ namespace Summit
 
         public const string Name = "Hollow_Summit";
 
-        public const string Version = "1.0.3";
+        public const string Version = "1.1.0";
 
         public const string GUID = Author + "." + Name;
 
@@ -67,6 +67,7 @@ namespace Summit
         public static ConfigEntry<bool> toggleArchaicWisp;
         public static ConfigEntry<bool> toggleClayMen;
         public static ConfigEntry<bool> toggleLynxTotems;
+        public static ConfigEntry<bool> toggleIfrit;
         public static ConfigEntry<bool> toggleIotaConstructs;
         public static ConfigEntry<bool> toggleDeltaConstructs;
 
@@ -105,6 +106,42 @@ namespace Summit
                 RoR2.SceneCatalog.GetSceneDefFromSceneName(RegularSceneName).filterOutOfBazaar = true;
                 RoR2.SceneCatalog.GetSceneDefFromSceneName(SnowySceneName).filterOutOfBazaar = false;
             }
+
+            var dlc3 = Addressables.LoadAssetAsync<RoR2.ExpansionManagement.ExpansionDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_DLC3.DLC3_asset).WaitForCompletion();
+            var dlc2 = Addressables.LoadAssetAsync<RoR2.ExpansionManagement.ExpansionDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_DLC2_Common.DLC2_asset).WaitForCompletion();
+
+            //Swap boss music if DLC2 is enabled
+            if (RoR2.Run.instance.IsExpansionEnabled(dlc2))
+            {
+                var newBossMusic = Addressables.LoadAssetAsync<RoR2.MusicTrackDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_DLC2_Common.muSong_HelminthBoss_asset).WaitForCompletion();
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(RegularSceneName).bossTrack = newBossMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SnowySceneName).bossTrack = newBossMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SimuSceneName).bossTrack = newBossMusic;
+            }
+            else
+            {
+                var regularBossMusic = Addressables.LoadAssetAsync<RoR2.MusicTrackDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_Base_Common_MusicTrackDefs.muSong16_asset).WaitForCompletion();
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(RegularSceneName).bossTrack = regularBossMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SnowySceneName).bossTrack = regularBossMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SimuSceneName).bossTrack = regularBossMusic;
+            }
+
+            //Swap stage music if DLC3 is enabled
+            if (RoR2.Run.instance.IsExpansionEnabled(dlc3))
+            {
+                var newMusic = Addressables.LoadAssetAsync<RoR2.MusicTrackDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_DLC3.muGameplayDLC3_01_SH_Map_asset).WaitForCompletion();
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(RegularSceneName).mainTrack = newMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SnowySceneName).mainTrack = newMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SimuSceneName).mainTrack = newMusic;
+            }
+            else
+            {
+                var regularMusic = Addressables.LoadAssetAsync<RoR2.MusicTrackDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_Base_Common_MusicTrackDefs.muGameplayBase_09_asset).WaitForCompletion();
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(RegularSceneName).mainTrack = regularMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SnowySceneName).mainTrack = regularMusic;
+                RoR2.SceneCatalog.GetSceneDefFromSceneName(SimuSceneName).mainTrack = regularMusic;
+            }
+
         }
 
         public void SwapBazaarFilters(On.RoR2.Run.orig_PickNextStageScene orig, RoR2.Run self, WeightedSelection<RoR2.SceneDef> choices)
@@ -341,6 +378,11 @@ namespace Summit
                                        "Enable Lynx Totems",
                                        true,
                                        "If true, Lynx Totems can appear in Hollow Summit.");
+            toggleIfrit =
+                base.Config.Bind<bool>("06 - Modded Enemies - EnemiesReturns",
+                                       "Enable Ifrit",
+                                       true,
+                                       "If true, Ifrit can appear in Frozen Summit.");
             toggleIotaConstructs =
                 base.Config.Bind<bool>("07 - Modded Enemies - RecoveredAndReformed",
                                        "Enable Iota Constructs",
