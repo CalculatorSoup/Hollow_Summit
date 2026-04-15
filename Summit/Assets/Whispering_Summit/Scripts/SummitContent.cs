@@ -103,7 +103,7 @@ namespace Summit.Content
             {
                 yield return null;
             }
-            var summitBossTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/MusicTrackDefs/muSong16.asset");
+            var summitBossTrackDefRequest = Addressables.LoadAssetAsync<MusicTrackDef>("RoR2/Base/Common/MusicTrackDefs/muSong23.asset");
             while (!summitBossTrackDefRequest.IsDone)
             {
                 yield return null;

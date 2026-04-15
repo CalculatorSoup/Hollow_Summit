@@ -45,7 +45,7 @@ namespace Summit
 
         public const string Name = "Hollow_Summit";
 
-        public const string Version = "1.1.0";
+        public const string Version = "1.1.1";
 
         public const string GUID = Author + "." + Name;
 
@@ -110,6 +110,7 @@ namespace Summit
             var dlc3 = Addressables.LoadAssetAsync<RoR2.ExpansionManagement.ExpansionDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_DLC3.DLC3_asset).WaitForCompletion();
             var dlc2 = Addressables.LoadAssetAsync<RoR2.ExpansionManagement.ExpansionDef>(RoR2BepInExPack.GameAssetPathsBetter.RoR2_DLC2_Common.DLC2_asset).WaitForCompletion();
 
+            /*
             //Swap boss music if DLC2 is enabled
             if (RoR2.Run.instance.IsExpansionEnabled(dlc2))
             {
@@ -141,6 +142,7 @@ namespace Summit
                 RoR2.SceneCatalog.GetSceneDefFromSceneName(SnowySceneName).mainTrack = regularMusic;
                 RoR2.SceneCatalog.GetSceneDefFromSceneName(SimuSceneName).mainTrack = regularMusic;
             }
+            */
 
         }
 
