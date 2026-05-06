@@ -26073,7 +26073,7 @@ MonoBehaviour:
   monsterSpawnTargetOverride: {fileID: 0}
   lumerianEgg:
     spawnCardReference:
-      m_AssetGUID: 
+      m_AssetGUID: 234cc71a82b0e82468900be4c544c1c8
       m_SubObjectName: 
       m_SubObjectType: 
     spawnCard: {fileID: 0}
@@ -95852,7 +95852,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &682557636
 Transform:
   m_ObjectHideFlags: 0
@@ -100386,7 +100386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &711889728
 Transform:
   m_ObjectHideFlags: 0
@@ -107380,7 +107380,7 @@ Transform:
   m_GameObject: {fileID: 769114046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 9, z: 0}
-  m_LocalScale: {x: 1000, y: 1000, z: 1000}
+  m_LocalScale: {x: 500, y: 1, z: 500}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 672900941}
@@ -107406,7 +107406,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dc48951b0b309a49adc6f417a80463b, type: 2}
+  - {fileID: 2100000, guid: b0af052e395058245947650a3d0460be, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -155967,7 +155967,7 @@ Transform:
   m_GameObject: {fileID: 1113466551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.4, z: 0}
-  m_LocalScale: {x: 1000, y: 1000, z: 1000}
+  m_LocalScale: {x: 500, y: 1, z: 500}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 672900941}
@@ -258021,7 +258021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1786778030
 Transform:
   m_ObjectHideFlags: 0

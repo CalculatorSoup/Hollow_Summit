@@ -1,3 +1,6 @@
+# 1.1.2
+- Fixed Lemurian eggs not spawning with Artifact of Devotion enabled
+
 # 1.1.1
 - Reverted music change from the last update since the way I swapped out music tracks depending on enabled expansions was conflicting with soundtrack mods (sorry!!)
 - Changed boss music to "Antarctic Oscillation"
